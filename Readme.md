@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # Proyecto: Ejercicios Básicos en JavaScript con Pruebas Unitarias
 
 Este repositorio contiene dos ejercicios básicos en JavaScript junto con sus respectivas pruebas unitarias utilizando Jest. Los ejercicios están diseñados para practicar conceptos fundamentales de programación y testing.
