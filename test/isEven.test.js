@@ -1,4 +1,4 @@
-const isEven = require("../JSI/isEven");
+const isEven = require("../src/isEven");
 
 describe("isEven function", () => {
   test("should return true for an even number", () => {

@@ -1,4 +1,4 @@
-const sum = require("../JSI/sum");
+const sum = require("../src/sum");
 
 describe("Sum function", () => {
   test("should add two positive numbers correctly", () => {
