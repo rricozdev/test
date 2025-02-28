@@ -11,11 +11,11 @@ Este repositorio contiene dos ejercicios básicos en JavaScript junto con sus re
 
 1. Clona este repositorio o descarga los archivos en tu máquina local:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/rricozdev/test.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd <NOMBRE_DEL_DIRECTORIO>
+   cd test
    ```
 3. Instala las dependencias:
    ```bash
@@ -26,7 +26,7 @@ Este repositorio contiene dos ejercicios básicos en JavaScript junto con sus re
 
 ```
 proyecto/
-├── src/
+├── JSI/
 │   ├── isEven.js         # Función para verificar si un número es par
 │   └── sum.js            # Función para sumar dos números
 ├── test/
@@ -42,12 +42,12 @@ proyecto/
 ## Ejercicios
 
 ### Ejercicio 1: Sumar dos números
-- **Archivo**: `src/sum.js`
+- **Archivo**: `JSI/sum.js`
 - **Descripción**: Implementa una función llamada `sum` que reciba dos parámetros numéricos (`a` y `b`) y devuelva su suma. Debe manejar números positivos, negativos y cero.
 - **Pruebas**: Verifica la suma de números positivos, mezcla de positivos y negativos, y números negativos. Las pruebas están en `test/sum.test.js`.
 
 ### Ejercicio 2: Verificar si un número es par
-- **Archivo**: `src/isEven.js`
+- **Archivo**: `JSI/isEven.js`
 - **Descripción**: Implementa una función llamada `isEven` que reciba un número (`number`) y devuelva `true` si es par o `false` si es impar. Considera que cero es un número par.
 - **Pruebas**: Verifica un número par positivo, un número impar y el caso especial de cero. Las pruebas están en `test/isEven.test.js`.
 
