@@ -28,7 +28,7 @@ Este repositorio contiene dos ejercicios básicos en JavaScript junto con sus re
 
 ```
 proyecto/
-├── JSI/
+├── src/
 │   ├── isEven.js         # Función para verificar si un número es par
 │   └── sum.js            # Función para sumar dos números
 ├── test/
@@ -44,12 +44,12 @@ proyecto/
 ## Ejercicios
 
 ### Ejercicio 1: Sumar dos números
-- **Archivo**: `JSI/sum.js`
+- **Archivo**: `src/sum.js`
 - **Descripción**: Implementa una función llamada `sum` que reciba dos parámetros numéricos (`a` y `b`) y devuelva su suma. Debe manejar números positivos, negativos y cero.
 - **Pruebas**: Verifica la suma de números positivos, mezcla de positivos y negativos, y números negativos. Las pruebas están en `test/sum.test.js`.
 
 ### Ejercicio 2: Verificar si un número es par
-- **Archivo**: `JSI/isEven.js`
+- **Archivo**: `src/isEven.js`
 - **Descripción**: Implementa una función llamada `isEven` que reciba un número (`number`) y devuelva `true` si es par o `false` si es impar. Considera que cero es un número par.
 - **Pruebas**: Verifica un número par positivo, un número impar y el caso especial de cero. Las pruebas están en `test/isEven.test.js`.
 
